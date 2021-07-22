@@ -20,4 +20,4 @@ jobs:
     - name: make
       run: make -C 3_Implementation/ run
     - name: Valgrid
-      run: valgrind ./3_Implementation/build/all.out
+      run: valgrind ./3_Implementation/build/run.out
