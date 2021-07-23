@@ -12,6 +12,7 @@ void assure_state() {
 	/* Assure that not more burgers than rack spaces are available */
 	if(burger_count > RACK_HOLDER_SIZE) {
 		printf("[ASSURE_STATE]\t ERROR: Rack overfull!\n");
+		printf("BURGER COUNT :: %d\n",burger_count);
 		exit(41);
 	}
 
